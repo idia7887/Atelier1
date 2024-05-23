@@ -1,18 +1,12 @@
-#include "./../../include/calculator.h"
+#ifndef CALCULATOR_H
+#define CALCULATOR_H
 
-double _add(double a, double b) {
-	return a+b;
-}
+double _add(double a, double b);
+double _sub(double a, double b);
+double _mul(double a, double b);
+double _div(double a, double b);
+double _square(double a); // Prototype de la nouvelle fonction
 
-double _sub(double a, double b) {
-	return a-b;
-}
+#endif
 
-double _mul(double a, double b) {
-	return a*b;
-}
-
-double _div(double a, double b) {
-	return a/b;
-}
 	
